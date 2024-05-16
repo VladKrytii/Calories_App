@@ -7,9 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <DockPanel>
-            <Button Background="AliceBlue" DockPanel.Dock="Top" Margin="10" Click="Button_Click">Click me</Button>
-            <Button Background="Blue" Margin="10">Call</Button>
-        </DockPanel>
+        <Frame x:Name="mainFrame" NavigationUIVisibility="Hidden"/>
+        
     </Grid>
 </Window>

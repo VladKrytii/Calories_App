@@ -1,0 +1,40 @@
+﻿<Page x:Class="TeamProject.Pages.Dish"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TeamProject.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Dish">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0">
+                <Button Content="Product Page>" Background="Aqua" FontSize="16" Padding="2" Margin="30,10" Click="ProductButton_Click"></Button>
+            </Grid>
+            <Grid Grid.Column="1">
+                <Button Content="Dish Page>" Background="Aqua" FontSize="16"  Padding="2" Margin="30,10" Click="DishButton_Click"></Button>
+            </Grid>
+            <Grid Grid.Column="2">
+                <Button Content="Calculator>" Background="Aqua" FontSize="16"  Padding="2" Margin="30,10" Click="DishButton_Click"></Button>
+            </Grid>
+        </Grid>
+        <Rectangle Grid.Row="1" Fill="Azure" Margin="10"></Rectangle>
+        
+        
+    </Grid>
+</Page>
