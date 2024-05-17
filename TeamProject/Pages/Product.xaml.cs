@@ -30,7 +30,7 @@ namespace TeamProject.Pages
         {
         }
 
-        private void ProductButton_Click(object sender, RoutedEventArgs e)
+        private void DishButton_Click(object sender, RoutedEventArgs e)
         {
         }
 

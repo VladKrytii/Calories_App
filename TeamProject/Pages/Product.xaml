@@ -24,13 +24,13 @@
                 <ColumnDefinition Width="1*"/>
             </Grid.ColumnDefinitions>
             <Grid Grid.Column="0">
-                <Button Content="Product Page>" Background="Aqua" FontSize="16" Padding="2" Margin="30,10" Click="ProductButton_Click"></Button>
+                <Button Content="Product Page" Background="Aqua" FontSize="16" Padding="2" Margin="30,10" Click="ProductButton_Click"></Button>
             </Grid>
             <Grid Grid.Column="1">
-                <Button Content="Dish Page>" Background="Aqua" FontSize="16"  Padding="2" Margin="30,10" Click="DishButton_Click"></Button>
+                <Button Content="Dish Page" Background="Aqua" FontSize="16"  Padding="2" Margin="30,10" Click="DishButton_Click"></Button>
             </Grid>
             <Grid Grid.Column="2">
-                <Button Content="Calculator>" Background="Aqua" FontSize="16"  Padding="2" Margin="30,10" Click="CalculatorButton_Click"></Button>
+                <Button Content="Calculator" Background="Aqua" FontSize="16"  Padding="2" Margin="30,10" Click="CalculatorButton_Click"></Button>
             </Grid>
         </Grid>
 

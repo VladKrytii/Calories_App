@@ -25,12 +25,21 @@ namespace TeamProject.Pages
             InitializeComponent();
         }
 
+        private void ProductButton_Click(object sender, RoutedEventArgs e)
+        {
+        }
+
+        private void DishButton_Click(object sender, RoutedEventArgs e)
+        {
+        }
+
+        private void CalculatorButton_Click(object sender, RoutedEventArgs e)
+        {
+        }
+
         private void GetCalorieInfo_Click(object sender, RoutedEventArgs e)
         {
         }
 
-        private int GetCaloriesForDish(string dishName)
-        { 
-        }
     }
 }
