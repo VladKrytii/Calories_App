@@ -18,23 +18,19 @@ namespace TeamProject.Pages
     /// <summary>
     /// Interaction logic for Dish.xaml
     /// </summary>
-    public partial class Dish : Page
+    public partial class Product : Page
     {
-        public Dish()
+        public Product()
         {
             InitializeComponent();
         }
 
-        private void DishButton_Click(object sender, RoutedEventArgs e)
+        private void GetCalorieInfo_Click(object sender, RoutedEventArgs e)
         {
-
         }
 
-        private void ProductButton_Click(object sender, RoutedEventArgs e)
-        {
-
+        private int GetCaloriesForDish(string dishName)
+        { 
         }
-
-
     }
 }

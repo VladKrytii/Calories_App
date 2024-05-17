@@ -1,4 +1,4 @@
-﻿<Page x:Class="TeamProject.Pages.Dish"
+﻿<Page x:Class="TeamProject.Pages.Product"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:TeamProject.Pages"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="Dish">
+      Title="Product">
 
     <Grid>
         <Grid.RowDefinitions>
@@ -30,11 +30,18 @@
                 <Button Content="Dish Page>" Background="Aqua" FontSize="16"  Padding="2" Margin="30,10" Click="DishButton_Click"></Button>
             </Grid>
             <Grid Grid.Column="2">
-                <Button Content="Calculator>" Background="Aqua" FontSize="16"  Padding="2" Margin="30,10" Click="DishButton_Click"></Button>
+                <Button Content="Calculator>" Background="Aqua" FontSize="16"  Padding="2" Margin="30,10" Click="CalculatorButton_Click"></Button>
             </Grid>
         </Grid>
-        <Rectangle Grid.Row="1" Fill="Azure" Margin="10"></Rectangle>
-        
-        
+
+        <Rectangle Grid.Row="1" Fill="Azure" Margin="10"/>
+
+        <StackPanel Grid.Row="1" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="10">
+            <TextBlock Text="Enter Dish Name:" FontSize="16" Margin="0,20,0,10"/>
+            <TextBox x:Name="DishNameTextBox" Width="200" Margin="0,0,0,10"/>
+            <Button Content="Get Calorie Information" Width="200" Click="GetCalorieInfo_Click"/>
+            <TextBlock x:Name="CalorieInfoTextBlock" FontSize="16" Margin="0,20,0,10"/>
+        </StackPanel>
+
     </Grid>
 </Page>

@@ -20,9 +20,26 @@ namespace TeamProject.Pages
     /// </summary>
     public partial class Product : Page
     {
+
         public Product()
         {
             InitializeComponent();
+        }
+
+        private void ProductButton_Click(object sender, RoutedEventArgs e)
+        {
+        }
+
+        private void ProductButton_Click(object sender, RoutedEventArgs e)
+        {
+        }
+
+        private void CalculatorButton_Click(object sender, RoutedEventArgs e)
+        {
+        }
+
+        private void GetCalorieInfo_Click(object sender, RoutedEventArgs e)
+        {
         }
     }
 }

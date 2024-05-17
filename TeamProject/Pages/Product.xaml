@@ -37,8 +37,8 @@
         <Rectangle Grid.Row="1" Fill="Azure" Margin="10"/>
 
         <StackPanel Grid.Row="1" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="10">
-            <TextBlock Text="Enter Dish Name:" FontSize="16" Margin="0,20,0,10"/>
-            <TextBox x:Name="DishNameTextBox" Width="200" Margin="0,0,0,10"/>
+            <TextBlock Text="Enter Product Name:" FontSize="16" Margin="0,20,0,10"/>
+            <TextBox x:Name="ProductNameTextBox" Width="200" Margin="0,0,0,10"/>
             <Button Content="Get Calorie Information" Width="200" Click="GetCalorieInfo_Click"/>
             <TextBlock x:Name="CalorieInfoTextBlock" FontSize="16" Margin="0,20,0,10"/>
         </StackPanel>
